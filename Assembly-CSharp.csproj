@@ -46,8 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Skripti\TelaMaina.cs" />
-     <Compile Include="Assets\Skripti\VardsVecums.cs" />
+     <Compile Include="Assets\Atteli\Skripti\ApgerbuDrag.cs" />
+     <Compile Include="Assets\Atteli\Skripti\ObjektuPaslepsana.cs" />
+     <Compile Include="Assets\Atteli\Skripti\TelaMaina.cs" />
+     <Compile Include="Assets\Atteli\Skripti\VardsVecums.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
