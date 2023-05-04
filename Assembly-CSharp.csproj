@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C44130F6-A839-B417-29C5-161BCEF12B2B}</ProjectGuid>
+    <ProjectGuid>{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,10 +46,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Atteli\Skripti\ApgerbuDrag.cs" />
-     <Compile Include="Assets\Atteli\Skripti\ObjektuPaslepsana.cs" />
-     <Compile Include="Assets\Atteli\Skripti\TelaMaina.cs" />
-     <Compile Include="Assets\Atteli\Skripti\VardsVecums.cs" />
+     <Compile Include="Assets\Skripti\AinuParsledzejs.cs" />
+     <Compile Include="Assets\Skripti\ApgerbuDrag.cs" />
+     <Compile Include="Assets\Skripti\AudioToggle.cs" />
+     <Compile Include="Assets\Skripti\ObjektuPaslepsana.cs" />
+     <Compile Include="Assets\Skripti\TelaMaina.cs" />
+     <Compile Include="Assets\Skripti\VardsVecums.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
