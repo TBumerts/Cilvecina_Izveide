@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Ainas/MainMenu.unity
+- path: Assets/Ainas/Ainas.unity
   isLoaded: 1
   isActive: 1

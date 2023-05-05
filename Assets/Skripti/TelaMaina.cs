@@ -5,6 +5,8 @@ using UnityEngine.UI;
 public class TelaMaina : MonoBehaviour {
     public Sprite[] atteluMasivs;
     public GameObject mainigaisAttels;
+    public GameObject slaiderisGar;
+    public GameObject slaiderisPlat;
     public void DzimumuMaina(int skaitlis) {
         if (skaitlis == 0)
         {
@@ -18,4 +20,21 @@ public class TelaMaina : MonoBehaviour {
             Debug.Log("Nav piesaistīts attēls!");
         }
     }
-}
+    public void mainitGarumu()
+    {
+        Debug.Log("mainitGarumu called");
+        float pasreizejaVertiba = slaiderisGar.GetComponent<Slider>().value;
+        Vector2 currentScale = mainigaisAttels.transform.localScale;
+        currentScale.x = pasreizejaVertiba;
+        mainigaisAttels.transform.localScale = currentScale;
+    }
+    public void mainitPlatumu()
+        {
+            float pasreizejaVertiba = slaiderisPlat.GetComponent<Slider>().value;
+            Vector2 currentScale = mainigaisAttels.transform.localScale;
+            currentScale.y = pasreizejaVertiba;
+            mainigaisAttels.transform.localScale = currentScale;
+        }
+
+
+    }
