@@ -17,6 +17,13 @@ public class ObjektuPaslepsana : MonoBehaviour {
 	public GameObject melnasbimg;
 	public GameObject dzelzsbimg;
 	public GameObject sakausejumabimg;
+	public GameObject bronzaskimg;
+	public GameObject dzelzskimg;
+	public GameObject sakausejumakimg;
+	public GameObject bronzaskurpimg;
+	public GameObject dzelzskurpimg;
+	public GameObject sakausejumakurpimg;
+	public GameObject melnaskurpimg;
     public void brunuAttelosana(bool vertiba) {
         bronzasimg.SetActive(vertiba);
 		dzelzsimg.SetActive(vertiba);
@@ -37,5 +44,16 @@ public class ObjektuPaslepsana : MonoBehaviour {
 		melnasbimg.SetActive(vertiba);
 		dzelzsbimg.SetActive(vertiba);
 		sakausejumabimg.SetActive(vertiba);	
+	}
+	public void kiveruAttelosana(bool vertiba) {
+		bronzaskimg.SetActive(vertiba);
+		dzelzskimg.SetActive(vertiba);
+		sakausejumakimg.SetActive(vertiba);
+	}
+	public void kurpesAttelosana(bool vertiba) {
+		bronzaskurpimg.SetActive(vertiba);
+		dzelzskurpimg.SetActive(vertiba);
+		sakausejumakurpimg.SetActive(vertiba);
+		melnaskurpimg.SetActive(vertiba);
 	}
 }
