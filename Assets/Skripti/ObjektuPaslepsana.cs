@@ -24,6 +24,20 @@ public class ObjektuPaslepsana : MonoBehaviour {
 	public GameObject dzelzskurpimg;
 	public GameObject sakausejumakurpimg;
 	public GameObject melnaskurpimg;
+	public GameObject zilaKleitaimg;
+	public GameObject kurpessievietesparastasimg;
+	public GameObject civilasKurpesSievimg;
+	public GameObject rozaKurpesSievimg;
+	public GameObject elegantaKleitaimg;
+	public GameObject garaKleitaimg;
+	void Start() {
+		garaKleitaimg.SetActive(false);
+		zilaKleitaimg.SetActive(false);
+		civilasKurpesSievimg.SetActive(false);
+		kurpessievietesparastasimg.SetActive(false);
+		rozaKurpesSievimg.SetActive(false);
+		elegantaKleitaimg.SetActive(false);
+	}
     public void brunuAttelosana(bool vertiba) {
         bronzasimg.SetActive(vertiba);
 		dzelzsimg.SetActive(vertiba);
@@ -55,5 +69,15 @@ public class ObjektuPaslepsana : MonoBehaviour {
 		dzelzskurpimg.SetActive(vertiba);
 		sakausejumakurpimg.SetActive(vertiba);
 		melnaskurpimg.SetActive(vertiba);
+	}
+	public void kleitasAttelosana(bool vertiba) {
+		zilaKleitaimg.SetActive(vertiba);
+		elegantaKleitaimg.SetActive(vertiba);
+		garaKleitaimg.SetActive(vertiba);
+	}
+	public void sievietesKurpesAttelosana(bool vertiba) {
+		kurpessievietesparastasimg.SetActive(vertiba);
+		civilasKurpesSievimg.SetActive(vertiba);
+		rozaKurpesSievimg.SetActive(vertiba);
 	}
 }
