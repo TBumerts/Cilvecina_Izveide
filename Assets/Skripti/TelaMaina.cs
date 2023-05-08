@@ -15,14 +15,19 @@ public class TelaMaina : MonoBehaviour {
     public GameObject attelotKurpes;
     public GameObject attelotKleitu;
     public GameObject attelotSievietesKurpes;
+    public GameObject attelotVirAprakstu;
+    public GameObject attelotSievAprakstu;
     void Start() {
+        attelotSievAprakstu.SetActive(false);
         attelotKleitu.SetActive(false);
         attelotSievietesKurpes.SetActive(false);
     }
     public void DzimumuMaina(int skaitlis)
     {
         if (skaitlis == 0)
-        {
+        { 
+            attelotSievAprakstu.SetActive (false);
+            attelotVirAprakstu.SetActive(true);
             mainigaisAttels.GetComponent<Image>().sprite = atteluMasivs[0];
             foreach (GameObject apgerbs in viriesuApgerbi)
             {
@@ -36,6 +41,8 @@ public class TelaMaina : MonoBehaviour {
         else if (skaitlis == 1)
         {
             mainigaisAttels.GetComponent<Image>().sprite = atteluMasivs[1];
+            attelotSievAprakstu.SetActive(true);
+            attelotVirAprakstu.SetActive(false);
             attelotSievietesKurpes.SetActive(true);
             attelotKleitu.SetActive (true);
             attelotKiveri.SetActive(false);
