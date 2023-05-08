@@ -1,6 +1,8 @@
 # Cilvecina_Izveide
 Unity PD projekts par cilvēciņa apģērbšanu un pārmaiņām.
 
+![Cilvecina menu](https://runescape.wiki/images/Worn_equipment_interface.png?c0427)
+
 ## Darāmo darbu saraksts:
 - [x]  Pievienot teksta laukus (2.gab vardam,vecumam)
 - [x]  Pievienot apstiprinasanas pogu teksta ievadei
@@ -14,4 +16,3 @@ Unity PD projekts par cilvēciņa apģērbšanu un pārmaiņām.
 - [ ]  Izveidot sākuma ekarāna dizainu
 - [ ]  Izveidot opciju izslēgt mūziku
 
-![Cilvecina menu](https://runescape.wiki/images/Worn_equipment_interface.png?c0427)
