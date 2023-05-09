@@ -10,9 +10,9 @@ Unity PD projekts par cilvēciņa apģērbšanu un pārmaiņām.
 - [x]  Pievienot vairākas apģērba kategorijas
 - [x]  Pievienot kategorijas paslēpšanu/parādīšanos
 - [x]  Izvēlēto apģērba gabalu iespējams drag&drop
-- [ ]  Nodrošīnāt skaņas effektus
+- [x]  Nodrošīnāt skaņas effektus
 - [x]  Pievienot Scroll view aprakstu par tēlu
 - [x]  Pievienot divus slaider elementus(garums, platums)
-- [ ]  Izveidot sākuma ekarāna dizainu
+- [x]  Izveidot sākuma ekarāna dizainu
 - [ ]  Izveidot opciju izslēgt mūziku
 
