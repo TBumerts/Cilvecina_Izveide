@@ -30,7 +30,10 @@ public class ObjektuPaslepsana : MonoBehaviour {
 	public GameObject rozaKurpesSievimg;
 	public GameObject elegantaKleitaimg;
 	public GameObject garaKleitaimg;
-	void Start() {
+    public GameObject attelotMatusBun;
+    public GameObject attelotMatusIzlaisti;
+    public GameObject attelotMatusSana;
+    void Start() {
 		garaKleitaimg.SetActive(false);
 		zilaKleitaimg.SetActive(false);
 		civilasKurpesSievimg.SetActive(false);
@@ -80,4 +83,9 @@ public class ObjektuPaslepsana : MonoBehaviour {
 		civilasKurpesSievimg.SetActive(vertiba);
 		rozaKurpesSievimg.SetActive(vertiba);
 	}
+	public void matuAttelosana(bool vertiba) {
+        attelotMatusBun.SetActive(vertiba);
+        attelotMatusIzlaisti.SetActive(vertiba);
+        attelotMatusSana.SetActive(vertiba);
+    }
 }

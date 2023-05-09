@@ -17,7 +17,15 @@ public class TelaMaina : MonoBehaviour {
     public GameObject attelotSievietesKurpes;
     public GameObject attelotVirAprakstu;
     public GameObject attelotSievAprakstu;
+    public GameObject attelotMatusBun;
+    public GameObject attelotMatusIzlaisti;
+    public GameObject attelotMatusSana;
+    public GameObject attelotMatus;
     void Start() {
+        attelotMatus.SetActive(false);
+        attelotMatusBun.SetActive(false);
+        attelotMatusIzlaisti.SetActive(false);
+        attelotMatusSana.SetActive(false);
         attelotSievAprakstu.SetActive(false);
         attelotKleitu.SetActive(false);
         attelotSievietesKurpes.SetActive(false);
@@ -26,8 +34,15 @@ public class TelaMaina : MonoBehaviour {
     {
         if (skaitlis == 0)
         { 
+            attelotMatus.SetActive (false);
+            attelotSievietesKurpes.SetActive (false);
+            attelotKleitu.SetActive (false);
             attelotSievAprakstu.SetActive (false);
             attelotVirAprakstu.SetActive(true);
+            attelotbrunas.SetActive (true);
+            attelotKiveri.SetActive (true);
+            attelotbikses.SetActive (true);
+            attelotKurpes.SetActive (true);
             mainigaisAttels.GetComponent<Image>().sprite = atteluMasivs[0];
             foreach (GameObject apgerbs in viriesuApgerbi)
             {
@@ -41,6 +56,10 @@ public class TelaMaina : MonoBehaviour {
         else if (skaitlis == 1)
         {
             mainigaisAttels.GetComponent<Image>().sprite = atteluMasivs[1];
+            attelotMatus.SetActive(true);
+            attelotMatusSana.SetActive (true);
+            attelotMatusIzlaisti.SetActive (true);
+            attelotMatusBun.SetActive (true);
             attelotSievAprakstu.SetActive(true);
             attelotVirAprakstu.SetActive(false);
             attelotSievietesKurpes.SetActive(true);
